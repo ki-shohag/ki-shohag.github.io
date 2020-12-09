@@ -1306,3 +1306,13 @@ section {
   object-fit:cover;
   border-radius: 10px;
 }
+#bio-pic{
+  border-radius: 10px;
+}
+.brand-logo{
+  max-width: 150px;
+  max-height: 80px;
+  margin-right: 25px;
+  margin-top: 50px;
+  
+}
