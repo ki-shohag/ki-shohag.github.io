@@ -138,6 +138,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 400px;
     widows: 400px;
   }
+  .brand-logo{
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 25px;
+    margin-top: 50px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1301,7 +1307,7 @@ section {
 .gallery-pics{
   max-width: 800px;
   max-height: 500px;
-  min-width: 370px;
+  min-width: 390px;
   min-height: 300px;
   object-fit:cover;
   border-radius: 10px;
@@ -1314,5 +1320,4 @@ section {
   max-height: 80px;
   margin-right: 25px;
   margin-top: 50px;
-  
 }
