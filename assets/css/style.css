@@ -138,12 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 400px;
     widows: 400px;
   }
-  .brand-logo{
-    max-width: 80px;
-    max-height: 80px;
-    margin-right: 25px;
-    margin-top: 50px;
-  }
+  
 }
 
 @media (min-width: 992px) {
