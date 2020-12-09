@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 400px;
     widows: 400px;
   }
-  
+
 }
 
 @media (min-width: 992px) {
@@ -1302,10 +1302,11 @@ section {
 .gallery-pics{
   max-width: 800px;
   max-height: 500px;
-  min-width: 390px;
-  min-height: 300px;
-  object-fit:cover;
+  min-width: 375px;
+  min-height: 250px;
+  width: 100%;
   border-radius: 10px;
+  object-fit:cover;
 }
 #bio-pic{
   border-radius: 10px;
