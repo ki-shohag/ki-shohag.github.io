@@ -134,6 +134,10 @@ h1, h2, h3, h4, h5, h6 {
     border-right: 1px solid #e6e9ec;
     left: -300px;
   }
+  #bio-pic{
+    height: 450px;
+    widows: 450px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1048,7 +1052,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form button[type="submit"], .download-btn {
   background: #0563bb;
   border: 0;
   padding: 10px 35px;
@@ -1058,8 +1062,9 @@ section {
   outline:none;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .php-email-form button[type="submit"]:hover,.download-btn:hover {
   background: #FF7F50;
+  cursor: pointer;
 }
 
 @-webkit-keyframes animate-loading {
