@@ -418,39 +418,52 @@
           <h2>Gallery</h2>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="assets/img/gallery/gallery-1.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-zoom-in"></i></a>
+        <!--image slider start-->
+          <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-6">
+              <div class="slider text-center">
+                <div class="slides text-center">
+                  <!--radio buttons start-->
+                  <input type="radio" name="radio-btn" id="radio1">
+                  <input type="radio" name="radio-btn" id="radio2">
+                  <input type="radio" name="radio-btn" id="radio3">
+                  <input type="radio" name="radio-btn" id="radio4">
+                  <!--radio buttons end-->
+                  <!--slide images start-->
+                  <div class="slide first">
+                    <img src="assets/img/gallery/gallery-1.jpg" alt="">
+                  </div>
+                  <div class="slide">
+                    <img src="assets/img/gallery/gallery-2.jpg" alt="">
+                  </div>
+                  <div class="slide">
+                    <img src="assets/img/gallery/gallery-3.jpg" alt="">
+                  </div>
+                  <div class="slide">
+                    <img src="assets/img/gallery/gallery-1.jpg" alt="">
+                  </div>
+                  <!--slide images end-->
+                  <!--automatic navigation start-->
+                  <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                  </div>
+                  <!--automatic navigation end-->
                 </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                  <label for="radio1" class="manual-btn"></label>
+                  <label for="radio2" class="manual-btn"></label>
+                  <label for="radio3" class="manual-btn"></label>
+                  <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="assets/img/gallery/gallery-2.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="assets/img/gallery/gallery-3.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+    <!--image slider end-->
         </div>
     </section><!-- End Portfolio Section -->
 
@@ -604,6 +617,17 @@
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
