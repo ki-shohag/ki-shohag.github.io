@@ -1245,8 +1245,6 @@ section {
   font-family: "Segoe UI", sans-serif;
   width: 175px;
   padding: 3px 10px;
-  border: 2px solid #0563bb;
-  border-radius: 12px;
   transition: 0.5s;
   margin-left: 20px;
   margin-top: 10px;
@@ -1254,8 +1252,6 @@ section {
 }
 
 .datetime:hover{
-  background: #0563bb;
-  box-shadow: 0 0 18px #0563bb;
   cursor: pointer;
 }
 
@@ -1264,6 +1260,7 @@ section {
   font-weight: 600;
   text-align: center;
   letter-spacing: 3px;
+  margin-bottom: 5px;
 }
 
 .time{
