@@ -23,10 +23,10 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        value: "#ffffff"
+        "value": "#ffffff"
       },
       "shape": {
-        "type": "polygon",
+        "type": "circle",
         "stroke": {
           "width": 0,
           "color": "#000000"
