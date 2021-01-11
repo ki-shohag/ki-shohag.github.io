@@ -156,7 +156,7 @@ h6 {
     .carousel img {
         width: 100% !important;
         min-width: 100 !important;
-        height: 200px;
+        height: 250px;
         border: 5px #fff8dc solid;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 20px;
@@ -335,7 +335,6 @@ h6 {
     color: white;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 .particles-js-canvas-el {
@@ -397,6 +396,7 @@ h6 {
 @media (max-width: 992px) {
     #particles-js {
         text-align: center;
+        background: black;
     }
     #particles-js h1 {
         font-size: 42px;
@@ -1432,4 +1432,19 @@ section {
     background-image: url('../img/backgrounds/webb.png');
     padding-top: 35px;
     padding-bottom: 50px;
+}
+
+.scroolDownBtn {
+    left: 50%;
+    bottom: 0;
+    position: absolute;
+    cursor: pointer;
+    z-index: 9999;
+    scroll-behavior: smooth;
+    font-size: 22px;
+}
+
+.scroolDownBtn i {
+    font-size: 42px;
+    font-weight: bold;
 }
