@@ -312,6 +312,9 @@ h6 {
     justify-content: center;
     align-items: center;
     color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .particles-js-canvas-el {
@@ -778,8 +781,12 @@ section {
     text-align: center;
     padding: 70px 20px 80px 20px;
     transition: all ease-in-out 0.3s;
-    background: #fff;
     box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+    background-image: url('../img/backgrounds/tic-tac-toe.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .portfolio .icon-box .icon {
@@ -991,9 +998,19 @@ section {
 # Contact
 --------------------------------------------------------------*/
 
+.contactRow {
+    background-image: url('../img/backgrounds/email-pattern.png');
+    background-size: 100%;
+    padding-top: 20px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
 .contact .info {
     width: 100%;
-    background: #fff;
 }
 
 .contact .info i {
@@ -1039,7 +1056,7 @@ section {
 
 .contact .php-email-form {
     width: 100%;
-    background: #fff;
+    background: transparent;
 }
 
 .contact .php-email-form .form-group {
@@ -1391,4 +1408,12 @@ section {
     max-height: 80px;
     margin-right: 25px;
     margin-top: 50px;
+}
+
+.skillsBrands {
+    background-image: url('../img/backgrounds/tic-tac-toe.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
