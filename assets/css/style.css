@@ -160,6 +160,7 @@ h6 {
         border: 5px #fff8dc solid;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 20px;
+        object-fit: cover;
     }
 }
 
@@ -176,10 +177,11 @@ h6 {
     .carousel img {
         width: 100% !important;
         min-width: 100 !important;
-        height: 350px;
+        height: 500px;
         border: 5px #ffdead solid;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 20px;
+        object-fit: cover;
     }
 }
 
