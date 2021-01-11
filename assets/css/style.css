@@ -153,7 +153,18 @@ h6 {
     #bio-pic {
         height: 320px;
     }
+    .carousel img {
+        width: 100% !important;
+        min-width: 100 !important;
+        height: 200px;
+        border: 5px #fff8dc solid;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
 }
+
+
+/*Large Screen*/
 
 @media (min-width: 992px) {
     #main {
@@ -161,6 +172,14 @@ h6 {
     }
     #bio-pic {
         height: 425px;
+    }
+    .carousel img {
+        width: 100% !important;
+        min-width: 100 !important;
+        height: 350px;
+        border: 5px #ffdead solid;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
 }
 
@@ -1005,7 +1024,6 @@ section {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     padding-bottom: 20px;
 }
 
@@ -1389,16 +1407,6 @@ section {
     cursor: pointer;
 }
 
-.gallery-pics {
-    max-width: 800px;
-    max-height: 500px;
-    min-width: 375px;
-    min-height: 250px;
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
-}
-
 #bio-pic {
     border-radius: 10px;
 }
@@ -1416,4 +1424,10 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.galleryContainer {
+    background-image: url('../img/backgrounds/webb.png');
+    padding-top: 35px;
+    padding-bottom: 50px;
 }
