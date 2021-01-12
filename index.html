@@ -33,6 +33,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -271,7 +272,7 @@
                             <h4>Higher Secondary Certificate</h4>
                             <ul>
                                 <li><em>Passing Year: 2017</em></li>
-                                <li><em>Dhaka College</em></li>
+                                <li><em>Dhaka College [English Version]</em></li>
                                 <li><em>Dhaka, Bangladesh</em></li>
                             </ul>
                         </div>
@@ -312,7 +313,7 @@
                     </div>
                 </div>
                 <div class="text-center" data-aos="fade-up" data-aos-delay="200">
-                    <a class="download-btn btn btn-primary text-white"><i class='bx bx-cloud-download text-white h3'></i></box-icon> Download Full Resume</a>
+                    <button id="resumeDownloadButton" class="download-btn btn btn-primary text-white"><i class='bx bx-cloud-download text-white h3'></i></box-icon> Download Full Resume</button>
                 </div>
 
             </div>
@@ -635,6 +636,14 @@
             updateClock();
             window.setInterval("updateClock()", 1);
         }
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#resumeDownloadButton').click(function(e) {
+                e.preventDefault();
+                window.location.href = "assets/resume/Shohag_CV_NA.pdf";
+            });
+        });
     </script>
 
 
