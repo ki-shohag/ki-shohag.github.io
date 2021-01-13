@@ -121,7 +121,7 @@ h6 {
     #bio-pic {
         height: 320px;
     }
-    .carousel img {
+    .gallery-pics {
         width: 100% !important;
         min-width: 100 !important;
         height: 250px;
@@ -129,6 +129,17 @@ h6 {
         border-top-right-radius: 30px;
         border-bottom-left-radius: 30px;
         object-fit: cover;
+    }
+    .modal .modal-dialog {
+        max-width: 100% !important;
+    }
+    .project-pics {
+        width: 100% !important;
+        min-width: 100 !important;
+        min-height: 250px;
+        object-fit: cover;
+        border: none;
+        border-radius: 0;
     }
 }
 
@@ -142,7 +153,7 @@ h6 {
     #bio-pic {
         height: 425px;
     }
-    .carousel img {
+    .gallery-pics {
         width: 100% !important;
         min-width: 100 !important;
         height: 500px;
@@ -150,6 +161,17 @@ h6 {
         border-top-right-radius: 20px;
         border-bottom-left-radius: 20px;
         object-fit: cover;
+    }
+    .modal .modal-dialog {
+        max-width: 80% !important;
+    }
+    .project-pics {
+        width: 100% !important;
+        min-width: 100 !important;
+        min-height: 420px;
+        object-fit: cover;
+        border: none;
+        border-radius: 0;
     }
 }
 
@@ -1334,4 +1356,18 @@ section {
     z-index: 9999;
     scroll-behavior: smooth;
     font-size: 22px;
+}
+
+.modal-body img {
+    width: auto;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.projectCarouselPics {
+    border: none;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
 }
