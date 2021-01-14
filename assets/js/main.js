@@ -199,13 +199,13 @@ jQuery(document).ready(function($) {
                 }
             },
             "color": {
-                "value": "#fff"
+                "value": "#FF7F50"
             },
             "shape": {
-                "type": "circle",
+                "type": "polygon",
                 "stroke": {
-                    "width": 2,
-                    "color": "#000000"
+                    "width": 3,
+                    "color": "#FF7F50"
                 },
                 "polygon": {
                     "nb_sides": 5
@@ -239,7 +239,7 @@ jQuery(document).ready(function($) {
             "line_linked": {
                 "enable": true,
                 "distance": 150,
-                "color": "#823a09",
+                "color": "#FF7F50",
                 "opacity": 0.4,
                 "width": 1
             },
@@ -263,7 +263,7 @@ jQuery(document).ready(function($) {
             "events": {
                 "onhover": {
                     "enable": true,
-                    "mode": "grab"
+                    "mode": "repulse"
                 },
                 "onclick": {
                     "enable": true,
@@ -273,7 +273,7 @@ jQuery(document).ready(function($) {
             },
             "modes": {
                 "grab": {
-                    "distance": 140,
+                    "distance": 400,
                     "line_linked": {
                         "opacity": 1
                     }
