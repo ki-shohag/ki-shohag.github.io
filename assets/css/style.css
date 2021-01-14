@@ -132,6 +132,7 @@ h6 {
     }
     .modal .modal-dialog {
         max-width: 100% !important;
+        margin-top: 100px;
     }
     .project-pics {
         width: 100% !important;

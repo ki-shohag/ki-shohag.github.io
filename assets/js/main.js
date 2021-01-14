@@ -1,9 +1,3 @@
-/**
- * Template Name: MyResume - v2.1.0
- * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
 !(function($) {
     "use strict";
 
@@ -205,12 +199,12 @@ jQuery(document).ready(function($) {
                 }
             },
             "color": {
-                "value": "#823a09"
+                "value": "#fff"
             },
             "shape": {
                 "type": "circle",
                 "stroke": {
-                    "width": 0,
+                    "width": 2,
                     "color": "#000000"
                 },
                 "polygon": {
@@ -379,27 +373,27 @@ $(document).ready(function() {
 });
 
 $('#crmPrevBtn').click(function() {
-    $('#exampleModalLongTitle').text('CRM Software - Node.JS');
+    $('#exampleModalLongTitle').text('CRM Software - Node.JS(MVC)');
     $("#modalPic-1").attr("src", "../assets/img/gallery/gallery-1.jpg");
     $("#modalPic-2").attr("src", "../assets/img/gallery/gallery-2.jpg");
     $("#modalPic-3").attr("src", "../assets/img/gallery/gallery-3.jpg");
     $("#introParagraph").text('This is a web based application that offers small companies and business organizations to manage the cusomer relationship using this software that acts as a SaaS(Software as a Service) application.There are 4 types of users for this system  .1.Company Managers .2.Clients .3.System Admin .4.Marketing Agents.Basically the system is subscription based.Managers from different companies or small business organizations can subscribe to the application to store their client details, schedules, proposals, calls, appointments, deals, chat as well.Again, the clients can be added to system by the managers themselves to login to the system for checking various offers form the company, deals, proposals and chat with the company managers.So the system acts as a common platform to manage the clients for the managers and the clients to interact with the managers.Again, A system admin can get all the report of the current situation of the system including number of organizations subscriptions, how many of them are active and inactive, transaction history.A report of both pdf and excel formt could be downloaded by the admin.Admin also holds the power to suspend any of the organizations for not paying subscription fees.There is a marketing agent in the system that works for the e - marketing.They can get all the clients details and email addresses for sending promotional offers, deals and proposals through social media(email).They get hired by the system admin and get paid after a certain period.Thus the application acts as a E - Marketing appliaction.');
     $("#learnedParagraph").text('This project helped me get myself introduced to web frameworks like Node.Js, Express JS mainly. I got to learn about new technologies to rapid develop a web application. Some key points that I learned : ');
     $("#learnedItems").html('');
-    $("#learnedItems").html('<li>Learned Node.Js, Express JS</li><li>Learned to use NPM package manager.</li><li>Rapid development of lightweight application that gets the Asynchronous benefit of the Node.Js to serve multiple users faster in parallel requests.</li> <li>Serving SaaS (Software as a Service) application.</li> <li>Used more Ajax and JSON for the project requirement.</li><li>Rapid application development using front end framework including Bootstrap 4, library like jQuery as well as backend framework like Node.Js and Express Js.</li><li>Report generation using server data to present them visually on the dashboard.</li>');
+    $("#learnedItems").html('<li>Learned Node.Js, Express JS</li><li>Learned to use NPM package manager.</li><li>Used MVC software architecture.</li><li>Rapid development of lightweight application that gets the Asynchronous benefit of the Node.Js to serve multiple users faster in parallel requests.</li> <li>Serving SaaS (Software as a Service) application.</li> <li>Used more Ajax and JSON for the project requirement.</li><li>Rapid application development using front end framework including Bootstrap 4, library like jQuery as well as backend framework like Node.Js and Express Js.</li><li>Report generation using server data to present them visually on the dashboard.</li>');
     $("#toolsParagraph").text('Technologies that I used to develop the application : ');
     $("#techItems").html('');
     $("#techItems").html('<li>Node.Js</li><li>Express Js</li><li>MySQL</li><li>JavaScript ES6</li><li>Ajax</li><li>jQuery</li><li>Bootstrap</li><li>HTML</li><li>CSS</li>');
 });
 $('#crmLaravelPrevBtn').click(function() {
-    $('#exampleModalLongTitle').text('CRM Software - Laravel');
+    $('#exampleModalLongTitle').text('CRM Software - Laravel(MVC)');
     $("#modalPic-1").attr("src", "../assets/img/gallery/gallery-1.jpg");
     $("#modalPic-2").attr("src", "../assets/img/gallery/gallery-2.jpg");
     $("#modalPic-3").attr("src", "../assets/img/gallery/gallery-3.jpg");
     $("#introParagraph").text('This is the extensive version of the CRM Software that I built using Node.JS. This is based on Laravel with the same project requirements. In this project keeping all the requirements same I just used Laravel web framework to build it. Not only that I also integrated this Laravel application as cient application with the Node.Js application as server side application throught API.This is a web based application that offers small companies and business organizations to manage the cusomer relationship using this software that acts as a SaaS(Software as a Service) application.There are 4 types of users for this system  .1.Company Managers .2.Clients .3.System Admin .4.Marketing Agents.Basically the system is subscription based.Managers from different companies or small business organizations can subscribe to the application to store their client details, schedules, proposals, calls, appointments, deals, chat as well.Again, the clients can be added to system by the managers themselves to login to the system for checking various offers form the company, deals, proposals and chat with the company managers.So the system acts as a common platform to manage the clients for the managers and the clients to interact with the managers.Again, A system admin can get all the report of the current situation of the system including number of organizations subscriptions, how many of them are active and inactive, transaction history.A report of both pdf and excel formt could be downloaded by the admin.Admin also holds the power to suspend any of the organizations for not paying subscription fees.There is a marketing agent in the system that works for the e - marketing.They can get all the clients details and email addresses for sending promotional offers, deals and proposals through social media(email).They get hired by the system admin and get paid after a certain period.Thus the application acts as a E - Marketing appliaction.');
     $("#learnedParagraph").text('This project helped me get myself introduced to web framework Laravel and using it in Object Oriented approach. I got to learn about new technologies to rapid develop a web application using Laravel. I also got to use API to exchange data between Laravel application as client application with the Node.Js application as server application.Some key points that I learned : ');
     $("#learnedItems").html('');
-    $("#learnedItems").html('<li>Learned Laravel Web Framework</li><li>Learned to use Composer.</li><li>Rapid development of web application using Laravel using the Object Oriented approach.</li><li>Email Service using SMTP protocol.</li><li>Chatting feature using Ajax and JSON.</li><li>Use of Microservices and API to fetch data.</li><li>Use of third party libraries for faster work.</li> <li>Serving SaaS (Software as a Service) application.</li> <li>Used more Ajax and JSON for the project requirement.</li><li>Rapid application development using front end framework including Bootstrap 4, library like jQuery as well as backend framework like Laravel, Node.Js and Express Js.</li><li>Report generation using server data from Node.Js application using API to present them visually on the dashboard using Google Chart API.</li>');
+    $("#learnedItems").html('<li>Learned Laravel Web Framework</li><li>Used MVC software architecture.</li><li>Rapid development of web application using Laravel using the Object Oriented approach.</li><li>Email Service using SMTP protocol.</li><li>Chatting feature using Ajax and JSON.</li><li>Use of Microservices and API to fetch data.</li><li>Use of third party libraries for faster work.</li> <li>Serving SaaS (Software as a Service) application.</li> <li>Used more Ajax and JSON for the project requirement.</li><li>Rapid application development using front end framework including Bootstrap 4, library like jQuery as well as backend framework like Laravel, Node.Js and Express Js.</li><li>Report generation using server data from Node.Js application using API to present them visually on the dashboard using Google Chart API.</li>');
     $("#toolsParagraph").text('Technologies that I used to develop the application : ');
     $("#techItems").html('');
     $("#techItems").html('<li>Laravel</li><li>Node.Js</li><li>Express Js</li><li>MySQL</li><li>PHP</li><li>JavaScript ES6</li><li>Ajax</li><li>jQuery</li><li>Bootstrap</li><li>HTML</li><li>CSS</li><li>Microservices</li><li>Google Chart API</li><li>APIs</li>');
@@ -416,4 +410,44 @@ $('#cinePrevBtn').click(function() {
     $("#toolsParagraph").text('Technologies that I used to develop the application : ');
     $("#techItems").html('');
     $("#techItems").html('<li>PHP</li><li>JavaScript</li><li>HTML</li><li>CSS</li><li>Bootstrap</li><li>jQuery</li><li>Ajax</li><li>MySQL</li>');
+});
+$('#comShopPrevBtn').click(function() {
+    $('#exampleModalLongTitle').text('Online Computer Shop');
+    $("#modalPic-1").attr("src", "../assets/img/gallery/gallery-1.jpg");
+    $("#modalPic-2").attr("src", "../assets/img/gallery/gallery-2.jpg");
+    $("#modalPic-3").attr("src", "../assets/img/gallery/gallery-3.jpg");
+    $("#introParagraph").text('A small web application that I built which is inspired from the online computer shops that shows laptops, computer components like SSD, RAM, GPU, CPU etc along with their prices. Each product is listed in the system with navigation and sub navigation to locate to that product. All the details including individual prices, availability, rating, customer reviews are there in the product page. A subscriber can post review for any product. An Admin holds the power to delete the review. There is a search option for all the products. Again a featured product list is also shown at the index page which are newly added to the vendor. Basic sign up and login function is also provided to the system. As the system is incomplete so the product ordering through shopping cart is not implemented.');
+    $("#learnedParagraph").text('Here are some key points that I learned : ');
+    $("#learnedItems").html('');
+    $("#learnedItems").html('<li>Prdouct navigation and sub navigation implementation for better user experience and product locating.</li><li>Complex SQL queries to provide better and exact products that the customer wants.</li><li>Managing vendor products in different categories in database.</li><li>Using Node.Js for faster user request handling.</li>');
+    $("#toolsParagraph").text('Technologies that I used to develop the application : ');
+    $("#techItems").html('');
+    $("#techItems").html('<li>Node.Js</li><li>Express Js</li><li>JavaScript</li><li>HTML</li><li>CSS</li><li>Bootstrap</li><li>jQuery</li><li>Ajax</li><li>MySQL</li>');
+});
+$('#pixBookPrevBtn').click(function() {
+    $('#exampleModalLongTitle').text('Photo Sharing and Photographers Booking Application');
+    $("#modalPic-1").attr("src", "../assets/img/gallery/gallery-1.jpg");
+    $("#modalPic-2").attr("src", "../assets/img/gallery/gallery-2.jpg");
+    $("#modalPic-3").attr("src", "../assets/img/gallery/gallery-3.jpg");
+    $("#introParagraph").text('This is a desktop application project is developed using C# and .NET Framework. It is a photographers booking application where users can check photographers portfolio to hire them. An admin manages all the users including photographers.The roles: 1. Users *Sign Up *Sign In *Check Photographers Portfolios *Hire Photographers if Available *Cancel Hire Request if Pending *Get Forgotten Password *Change Password 2. Photogaphers *SIgn Up *Sgn In *Get Forgotten Password *Change Password *Upload Photos to Portfolio *Remove Photos From Portfolio * Update Portfolio * Accept or Reject Hire Request * Check All Requests 3. Admin * Insert, Update and Delete Users and Photographers Information * Change User Status * Manage Hire Requests');
+    $("#learnedParagraph").text('Here are some key points that I learned : ');
+    $("#learnedItems").html('');
+    $("#learnedItems").html('<li>GUI based desktop application development using .NET Framework.</li><li>Working with MSSQL and SQL Server.</li><li>Event Handling with .Net Framework components and form validation.</li><li>Subscription based application and managing individual profiles with their data.</li><li>Managing packages in Visual Studio IDE.</li>');
+    $("#toolsParagraph").text('Technologies that I used to develop the application : ');
+    $("#techItems").html('');
+    $("#techItems").html('<li>.C#</li><li>.NET Framework</li><li>MS SQL</li>');
+});
+
+$('#perfPrevBtn').click(function() {
+    $('#exampleModalLongTitle').text('University Student Performance Management System');
+    $("#modalPic-1").attr("src", "../assets/img/gallery/gallery-1.jpg");
+    $("#modalPic-2").attr("src", "../assets/img/gallery/gallery-2.jpg");
+    $("#modalPic-3").attr("src", "../assets/img/gallery/gallery-3.jpg");
+    $("#introParagraph").text('A desktop application that records per semester term marks to calculate gpa and cgpa of a sutdent for each seemster this application was developed using Java. A univeristy student needs to just insert their subject wise marks for each term of a semester in the system. It will automatically grade the course for that semexter according to the grading poclicy of AIUB. It will also record overall cgpa and show all the genreated report to that student with all the previous performance data. The student can also track on which courses he performed best and worst. The system will also tell the counts of grades the student receieved.It will also show the student how much marks he needs to achieve in a term or semester to earn a particular amount of overall cgpa.');
+    $("#learnedParagraph").text('Here are some key points that I learned : ');
+    $("#learnedItems").html('');
+    $("#learnedItems").html('<li>GUI based desktop application development using Java and Swing.</li><li>Working with MySQL.</li><li>Event Handling with Swing components.</li><li>Calculation of grades using Java and inlude them as packages.</li><li>Managing packages in Raw Java codes without any IDE.</li>');
+    $("#toolsParagraph").text('Technologies that I used to develop the application : ');
+    $("#techItems").html('');
+    $("#techItems").html('<li>Java</li><li>Swing</li><li>MySQL</li><li>Sublime Text</li>');
 });
