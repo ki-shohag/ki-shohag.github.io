@@ -169,7 +169,7 @@ h6 {
     .project-pics {
         width: 100% !important;
         min-width: 100 !important;
-        min-height: 420px;
+        min-height: 750px;
         object-fit: cover;
         border: none;
         border-radius: 0;
@@ -1359,4 +1359,7 @@ section {
     width: 500px;
     height: 300px;
     object-fit: cover;
+}
+#carouselIndicator li {
+    color: #11dbcf;
 }
