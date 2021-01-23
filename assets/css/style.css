@@ -124,7 +124,7 @@ h6 {
     .gallery-pics {
         width: 100% !important;
         min-width: 100 !important;
-        height: 250px;
+        height: 3 50px;
         border: 5px #fff8dc solid;
         border-top-right-radius: 30px;
         border-bottom-left-radius: 30px;
@@ -157,7 +157,7 @@ h6 {
     .gallery-pics {
         width: 100% !important;
         min-width: 100 !important;
-        height: 500px;
+        height: 700px;
         border: 5px #ffdead solid;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 20px;
@@ -1360,6 +1360,7 @@ section {
     height: 300px;
     object-fit: cover;
 }
+
 #carouselIndicator li {
     color: #11dbcf;
 }
