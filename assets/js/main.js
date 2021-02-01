@@ -407,12 +407,12 @@ function initClock() {
     window.setInterval("updateClock()", 1);
 }
 
-$(document).ready(function() {
-    $("#resumeDownloadButton").click(function(e) {
-        e.preventDefault();
-        window.location.href = "assets/resume/Shohag_Resume.pdf";
-    });
-});
+// $(document).ready(function() {
+//     $("#resumeDownloadButton").click(function(e) {
+//         e.preventDefault();
+//         window.location.href = "assets/resume/Shohag_Resume.pdf";
+//     });
+// });
 
 $("#crmPrevBtn").click(function() {
     $("#exampleModalLongTitle").text("CRM Software - Node.JS(MVC)");
