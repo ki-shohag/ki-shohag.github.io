@@ -644,3 +644,6 @@ $("#perfPrevBtn").click(function() {
         "<li>Java</li><li>Swing</li><li>MySQL</li><li>Sublime Text</li>"
     );
 });
+$('.carousel').carousel({
+    interval: 1000 * 3
+});
