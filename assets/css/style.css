@@ -144,6 +144,30 @@ h6 {
     }
 }
 
+@media(min-width: 550px) {
+    .gallery-pics {
+        width: 100% !important;
+        min-width: 100 !important;
+        height: 450px;
+        border: 5px #fff8dc solid;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        object-fit: cover;
+    }
+    .modal .modal-dialog {
+        max-width: 100% !important;
+        margin-top: 100px;
+    }
+    .project-pics {
+        width: 100% !important;
+        min-width: 100 !important;
+        min-height: 450px;
+        object-fit: cover;
+        border: none;
+        border-radius: 0;
+    }
+}
+
 
 /*Large Screen*/
 
@@ -337,7 +361,7 @@ h6 {
 }
 
 #particles-js p span {
-    color: #0563bb;
+    color: #148af9;
     letter-spacing: 1px;
 }
 
@@ -741,6 +765,7 @@ section {
 
 #portfolio {
     background: url('../img/backgrounds/gplaypattern.png');
+    background: #f7f8f9;
 }
 
 .portfolio .icon-box {
