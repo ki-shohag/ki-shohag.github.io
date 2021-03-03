@@ -148,7 +148,7 @@ h6 {
     .gallery-pics {
         width: 100% !important;
         min-width: 100 !important;
-        height: 450px;
+        height: 600px;
         border: 5px #fff8dc solid;
         border-top-right-radius: 30px;
         border-bottom-left-radius: 30px;
@@ -189,6 +189,7 @@ h6 {
     }
     .modal .modal-dialog {
         max-width: 80% !important;
+        margin-top: 5px;
     }
     .project-pics {
         width: 100% !important;
